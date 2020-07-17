@@ -1,0 +1,34 @@
+Java Development Kit (JDK)
+--------------------------
+-- Used by the developer to develop java application.
+-- Contains development tools like java compiler.
+-- When we compile our .java file its get converted to byte code.
+   This byte code is platform independent.
+
+Java Runtime Environment (JRE)
+-----------------------------
+-- Used by the end user to run the java application.
+-- To run java code only JRE is required.
+-- Provide an environment to run java byte codes.
+-- Containd the JVM and set of libraries.
+
+Java Virtual Machine (JVM)
+--------------------------
+-- Its a virtual machin which provide a runtime environment to run the byte code and convert it to .class file.
+
+Compile and Run in cmd
+----------------------
+-- javac HelloWorld.java    to compile.
+-- java HelloWorld     to run the 
+
+Operator Precedence
+-------------------
+-- x++,x-- -> ++x,--x -> *,/,% -> +,-
+-- left to right in an equation
+
+& vs &&
+-------
+-- & checks both side
+-- && checks left side first if its false then its doesn't check the right side bcz result will be false either way
+      if left side is true then only it checks right side.
+
